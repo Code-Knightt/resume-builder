@@ -15,7 +15,7 @@ function SkillsSection() {
                 return (
                   <div
                     key={skill.skillName + index}
-                    className="bg-black px-2 py-1 rounded text-white"
+                    className="bg-black dark:bg-slate-500 px-2 py-1 rounded text-white"
                   >
                     <p>{skill.skillName}</p>
                   </div>

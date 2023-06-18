@@ -38,8 +38,7 @@ function EditorHeadings({ setForm }) {
     <div className="flex flex-col w-full">
       <div
         ref={headingsRef}
-        className="w-full overflow-scroll flex flex-row h-fit no-scrollbar snap-x snap-mandatory child:snap-start child:text-2xl child:font-extrabold child:uppercase child:flex-shrink-0 child:mr-20 child:h-fit child:select-none child:duration-300 child:cursor-pointer child:ease-in-out text-black dark:text-white"
-      >
+        className="w-full overflow-scroll flex flex-row h-fit no-scrollbar snap-x snap-mandatory child:snap-start child:text-2xl child:font-extrabold child:uppercase child:flex-shrink-0 child:mr-20 child:h-fit child:select-none child:duration-300 child:cursor-pointer child:ease-in-out text-black dark:text-white">
         {headings.map((heading, index) => {
           return (
             <h3 key={index} onClick={() => change(index)}>

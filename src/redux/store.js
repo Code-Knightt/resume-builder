@@ -5,6 +5,7 @@ import experienceReducer from "./slices/ExperienceSlice.jsx";
 import skillsReducer from "./slices/SkillsSlice.jsx";
 import projectsReducer from "./slices/ProjectsSlice.jsx";
 import coursesReducer from "./slices/CoursesSlice.jsx";
+import colorsReducer from "./slices/ColorsSlice.jsx";
 
 export default configureStore({
   reducer: {
@@ -14,5 +15,6 @@ export default configureStore({
     skills: skillsReducer,
     projects: projectsReducer,
     courses: coursesReducer,
+    colors: colorsReducer,
   },
 });
