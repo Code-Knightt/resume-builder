@@ -15,7 +15,7 @@ function PersonalSection() {
   return (
     <div className="flex flex-row scalable-container justify-between items-start w-full col-span-2 mb-4">
       <div className="max-w-[55%]">
-        <h1 className="text-c-big font-bold mb-4 leading-[3rem] w-max">
+        <h1 className="text-c-big font-bold mb-4 leading-[3rem] w-[100%]">
           {data.name}
         </h1>
         <h3 className="text-c-normal font-normal mb-4 leading-5 w-max">

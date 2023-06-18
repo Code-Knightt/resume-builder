@@ -22,7 +22,7 @@ function App() {
     "relative duration-300 h-screen w-screen flex flex-col overflow-x-hidden ";
 
   return (
-    <div className={dark ? classes + "dark bg-black " : classes + "bg-white"}>
+    <div className={dark ? classes + "dark bg-zinc-900 " : classes + "bg-gray-50 "}>
       <Navbar theme={dark} setTheme={setDark} />
       <div className="px-20 mt-20 w-screen relative flex flex-row items-center">
         <Editor />

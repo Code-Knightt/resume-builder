@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import EditorHeadings from "../ui/EditorHeadings";
 import Forms from "../ui/Forms";
+import Colors from "./Colors";
 
 function Editor() {
   const [form, setForm] = useState(0);
@@ -11,6 +12,8 @@ function Editor() {
       <EditorHeadings setForm={setForm} />
       {/* Form */}
       <Forms form={form} />
+      {/* Colors */}
+      <Colors/>
     </div>
   );
 }

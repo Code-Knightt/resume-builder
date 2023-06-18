@@ -12,7 +12,7 @@ function Navbar({ theme, setTheme }) {
         exit={{ opacity: 0 }}
         transition={{ duration: 0.15 }}
         onClick={() => {
-          setTheme(!theme);
+          setTheme(prev => !prev);
         }}
       >
         {type === "sun" ? (

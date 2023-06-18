@@ -107,7 +107,7 @@ function WorksForm() {
       })}
       <button
         onClick={() => {
-          console.log("Update");
+          // console.log("Update");
           setExperienceDetails([...experienceDetails, generateTemplate()]);
         }}
         className="text-green-500"
